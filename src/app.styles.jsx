@@ -24,7 +24,6 @@ export const Library = styled.div`
     min-height:300px;
     margin:10px;
     display:flex;
-    background-color:#555;
     background: rgba(74, 74, 74, 0.5);
     border-radius:5px;
     display: flex;
@@ -34,14 +33,12 @@ export const Library = styled.div`
 	align-content: center;
 `
 
-export const BookCoverContainers = styled.div`
-    margin:10px;
-    min-width:250px;
-    height:330px;
-    background-color:purple;
+export const BookImage = styled.img`
+    height:300px;
+    right:100px;
 
-    img {
+    @media (max-width:400px) {
         width:100%;
-        height:100%;
+        height:auto;
     }
 `
