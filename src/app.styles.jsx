@@ -1,6 +1,8 @@
 // import styled from "styled-components";
 import styled from "styled-components";
 
+export const query1 = `max-width:550px`
+
 export const AppContainer = styled.main`
     min-height:100vh;
     width:100vw;
@@ -11,7 +13,7 @@ export const AppContainer = styled.main`
     display: flex;
     flex-direction:column;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+    justify-content: space-between;
 	align-items: center;
 	align-content: center;
 

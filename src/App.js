@@ -4,6 +4,7 @@ import { useEffect,useState } from 'react';
 import { stores } from './stores';
 import { AppContainer,Library,BookCoverContainers,BookImage  } from './app.styles';
 import { StoreItem } from './Components/StoreItems/storeItem.component';
+import Header from './Components/Header/header.component';
 // import book from './3d_book.png'
 // import tablet from './3d_tablet.png'
 import bookandtablet from './3d book and tablet.png'
@@ -17,11 +18,11 @@ function App() {
   })
   return (
     <AppContainer>
-        <BookImage src={bookandtablet}/>
-        <Library>
-          {storeMap}
-        </Library>
-      
+      <Header/>
+      <BookImage src={bookandtablet}/>
+      <Library>
+        {storeMap}
+      </Library>
     </AppContainer>
   );
 }
