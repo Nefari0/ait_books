@@ -4,6 +4,9 @@ import { query1 } from "../../app.styles";
 export const HeaderContainer = styled.header`
     width:100vw;
     height:100px;
+    position:sticky;
+    top:0;
+    z-index:1;
     background: rgba(74, 74, 74, 1);
     display:flex;
     justify-content: space-around;
