@@ -6,7 +6,7 @@ export const query1 = `max-width:550px`
 export const AppContainer = styled.main`
     min-height:100vh;
     width:100vw;
-    display:flex;
+
     // background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://firebasestorage.googleapis.com/v0/b/bcwb-879fa.appspot.com/o/data%2Fimages%2Ffirestorm?alt=media&token=641026dc-9496-440b-8703-69b8abe24e94);
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://firebasestorage.googleapis.com/v0/b/bcwb-879fa.appspot.com/o/data%2Fimages%2Fait_1?alt=media&token=5d6afd7e-b3e6-401f-baee-e0eac98df2a1);
 
