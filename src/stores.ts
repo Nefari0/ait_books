@@ -1,4 +1,10 @@
-export const stores = [
+export type Store = {
+  logo: string;
+  link: string | null;
+  name: string;
+};
+
+export const stores: Store[] = [
     {
         name:'B&N',
         logo:'https://draft2digital-prod-static.s3.amazonaws.com/img/publishing-logo-pi.png',
