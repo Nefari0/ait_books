@@ -15,10 +15,10 @@ const Player = ({url,styles}:PlayerProps) => {
     return (
         <PlayerContainer>
             <ReactPlayer
-                src={url}
+                src={`${url}?fullscreen=1`}
                 width={width}
                 height={height}
-                controls={true}
+                controls
                 playsInline
             />          
         </PlayerContainer>
