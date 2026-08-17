@@ -5,6 +5,13 @@ export type Store = {
 };
 
 export const stores: Store[] = [
+
+    {
+        name:'amazon',
+        logo:'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
+        link:'https://www.amazon.com/Adrift-Tyranny-familys-voyage-across/dp/B0GB95YNBS/ref=sr_1_1?crid=3N5R1BERAGFJK&dib=eyJ2IjoiMSJ9.LRW7cSoeVsZu0xouU6pGyqYMk4Q7lUI-iJ8JaoENZDRn1HQpmMJ2RH7DkElTWNgqPoVe6GVUnuvw7z7pqmqnDL4AlyGFqUm5Voai_0LNGqdkddv4qTOw_Gans3zgneWtLXjT-bX08nKNw9A6J2wx3g.TRw6Upmsq8z_K-ZRfbzfQJBtrsCmuLn1lMDyf3D7xLY&dib_tag=se&keywords=adrift%2Bin%2Btyranny&qid=1785614907&sprefix=adrift%2Bin%2Btyranny%2Caps%2C202&sr=8-1'
+    },
+
     {
         name:'B&N',
         logo:'https://draft2digital-prod-static.s3.amazonaws.com/img/publishing-logo-pi.png',
@@ -81,11 +88,5 @@ export const stores: Store[] = [
         name:'Borrowbox',
         logo:'https://draft2digital-prod-static.s3.amazonaws.com/img/publishing-logo-borrowbox.png',
         link:null
-    },
-
-    {
-        name:'amazon',
-        logo:'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
-        link:'https://www.amazon.com/Adrift-Tyranny-familys-voyage-across/dp/B0GB95YNBS/ref=sr_1_1?crid=3N5R1BERAGFJK&dib=eyJ2IjoiMSJ9.LRW7cSoeVsZu0xouU6pGyqYMk4Q7lUI-iJ8JaoENZDRn1HQpmMJ2RH7DkElTWNgqPoVe6GVUnuvw7z7pqmqnDL4AlyGFqUm5Voai_0LNGqdkddv4qTOw_Gans3zgneWtLXjT-bX08nKNw9A6J2wx3g.TRw6Upmsq8z_K-ZRfbzfQJBtrsCmuLn1lMDyf3D7xLY&dib_tag=se&keywords=adrift%2Bin%2Btyranny&qid=1785614907&sprefix=adrift%2Bin%2Btyranny%2Caps%2C202&sr=8-1'
     }
 ]
