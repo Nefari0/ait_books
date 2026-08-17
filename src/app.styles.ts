@@ -24,6 +24,7 @@ export const AppContainer = styled.main`
 
 export const Library = styled.div`
     min-height:300px;
+    max-width:1500px;
     margin:10px;
     display:flex;
     background: rgba(74, 74, 74, 0.5);
@@ -42,5 +43,23 @@ export const BookImage = styled.img`
     @media (max-width:400px) {
         width:100%;
         height:auto;
+    }
+`
+
+export const ReviewSection = styled.blockquote`
+    min-height:100px;
+    max-width:1500px;
+    border-radius:5px;
+    padding:10px;
+    margin:10px;
+    background: rgba(74, 74, 74, 0.5);
+    i {
+        // padding:30px;
+        color:#fff;
+    }
+
+    footer {
+        margin:10px;
+        color:#fff;
     }
 `
