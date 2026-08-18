@@ -30,9 +30,7 @@ export const SocialMediaIcons = styled.img`
 export const AuthorImage = styled.div`
     width:50px;
     height:50px;
-    // height:auto;
     border-radius:50%;
-    background-color:blue;
     overflow:hidden;
     position:relative;
     margin:10px;
