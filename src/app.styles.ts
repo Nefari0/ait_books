@@ -2,6 +2,7 @@
 import styled from "styled-components";
 
 export const query1 = `max-width:550px`
+export const desktop = 852
 
 export const AppContainer = styled.main`
     min-height:100vh;

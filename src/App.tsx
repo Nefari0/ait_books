@@ -1,4 +1,5 @@
 import { stores } from './stores';
+import liberation from './assets/liberation.png'
 import { AppContainer, Library, BookImage, ReviewSection } from './app.styles';
 import { StoreItem } from './Components/StoreItems/storeItem.component';
 import Header from './Components/Header/header.component';
@@ -23,6 +24,7 @@ function App() {
             height:'300px'
           }} 
           url={'https://vimeo.com/1218748341'}
+          // url={"https://example.invalid/not-a-video"}
         />
         <Player 
           styles={{
@@ -36,14 +38,17 @@ function App() {
       <DesktopPlayerSection>
         <Player 
           styles={{
-            width:'100%',
+            width:'394px',
             height:'700px'
           }} 
           url={'https://vimeo.com/1218770160'}
+          // url={"https://example.invalid/not-a-video"}
+          alt={liberation}
         />
         <Player 
           styles={{
-            width:'100%',
+            // width:'100%',
+            width:'394px',
             height:'700px'
           }} 
           url={'https://vimeo.com/1205169300'}
