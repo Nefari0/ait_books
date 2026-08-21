@@ -3,14 +3,28 @@ import liberation from './assets/liberation.png'
 import { AppContainer, Library, BookImage, ReviewSection } from './app.styles';
 import { StoreItem } from './Components/StoreItems/storeItem.component';
 import Header from './Components/Header/header.component';
-import bookandtablet from './3d book and tablet.png';
+import bookandtablet from './assets/3d book and tablet.png';
 import Player from './Components/VideoPlayer/video.component';
 import { DesktopPlayerSection,MobilPlayerSection } from './Components/VideoPlayer/video.styles';
+import { homeVideos } from './videos';
 
 function App() {
   const storeMap = stores.map((el, i) => {
     return <StoreItem key={i} el={el} />;
   });
+
+  const mobileVids = homeVideos.filter(el => el.mobile === true)
+  const desktopVids = homeVideos.filter(el => el.mobile === false)
+
+  const deskVideoMap = desktopVids.map((el,i) => {
+    const {styles,videoUrl,altImage} = el
+    return <Player styles={styles} url={videoUrl} alt={altImage}/>
+  })
+
+  const mobileVideoMap = mobileVids.map((el,i) => {
+    const {styles,videoUrl,altImage} = el
+    return <Player styles={styles} url={videoUrl} alt={altImage}/>
+  })
 
   return (
     <AppContainer>
@@ -18,41 +32,11 @@ function App() {
       <BookImage src={bookandtablet} />
 
       <MobilPlayerSection>
-        <Player 
-          styles={{
-            width:'100%',
-            height:'300px'
-          }} 
-          url={'https://vimeo.com/1218748341'}
-          // url={"https://example.invalid/not-a-video"}
-        />
-        <Player 
-          styles={{
-            width:'100%',
-            height:'700px'
-          }} 
-          url={'https://vimeo.com/1205169300'}
-        />
+        {mobileVideoMap}
       </MobilPlayerSection>
 
       <DesktopPlayerSection>
-        <Player 
-          styles={{
-            width:'394px',
-            height:'700px'
-          }} 
-          url={'https://vimeo.com/1218770160'}
-          // url={"https://example.invalid/not-a-video"}
-          alt={liberation}
-        />
-        <Player 
-          styles={{
-            // width:'100%',
-            width:'394px',
-            height:'700px'
-          }} 
-          url={'https://vimeo.com/1205169300'}
-        />
+        {deskVideoMap}
       </DesktopPlayerSection>
 
       <ReviewSection>
