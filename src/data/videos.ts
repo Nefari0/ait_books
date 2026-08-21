@@ -1,5 +1,5 @@
-import liberation from './assets/liberation.png'
-import mobile_liberation from './assets/mobile liberation.png'
+import liberation from '../assets/liberation.png'
+import mobile_liberation from '../assets/mobile liberation.png'
 
 export type HomeVideos = {
     videoUrl:string;

@@ -26,7 +26,7 @@ export const AppContainer = styled.main`
 export const Library = styled.div`
     min-height:300px;
     max-width:1500px;
-    margin:10px;
+    margin:5px 10px;
     display:flex;
     background: rgba(74, 74, 74, 0.5);
     border-radius:5px;
@@ -52,10 +52,9 @@ export const ReviewSection = styled.blockquote`
     max-width:1500px;
     border-radius:5px;
     padding:10px;
-    margin:10px;
+    margin: 5px 10px;
     background: rgba(74, 74, 74, 0.5);
     i {
-        // padding:30px;
         color:#fff;
     }
 
