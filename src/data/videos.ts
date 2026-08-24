@@ -33,7 +33,7 @@ export const homeVideos: HomeVideos[] = [
 
     {
         videoUrl:'https://vimeo.com/1205169300',
-        // videoUrl:'https://example.invalid/not-a-video',
+        // videoUrl:'https://example.invalid/not-a-video', // for testing
         name:'AIT overview',
         notes:'displays as reel on mobile and desktop',
         styles:{
@@ -47,7 +47,7 @@ export const homeVideos: HomeVideos[] = [
 
     {
         videoUrl:'https://vimeo.com/1218748341',
-        // videoUrl:'https://example.invalid/not-a-video',
+        // videoUrl:'https://example.invalid/not-a-video', // for testing
         altImage:`${mobile_liberation}`,
         name:'Escaping Tyranny',
         notes:'2d video displays on mobile',
@@ -60,6 +60,8 @@ export const homeVideos: HomeVideos[] = [
 
     {
         videoUrl:'https://vimeo.com/1205169300',
+        altImage:`${liberation}`,
+        // videoUrl:'https://example.invalid/not-a-video', // for testing
         name:'AIT overview',
         notes:'displays as reel on mobile and desktop',
         styles:{

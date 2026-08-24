@@ -13,7 +13,6 @@ export const DesktopPlayerSection = styled.section`
         display:none;
     }
 
-    // background-color:blue;
 `
 
 export const MobilPlayerSection = styled(DesktopPlayerSection)`
@@ -25,6 +24,7 @@ export const MobilPlayerSection = styled(DesktopPlayerSection)`
 
     @media (max-width:${desktop}px) {
         display:flex;
+        align-items: center;
     }
 `
 
@@ -40,7 +40,9 @@ export const PlayerContainer = styled.div`
     }
 `
 
+// wdith:${({width}) => width}px;
+// height:${({height}) => height}px;
 export const VideoError = styled.img`
-    wdith:${({width}) => width}px;
-    height:${({height}) => height}px;
+    width:300px;
+    margin:auto;
 `

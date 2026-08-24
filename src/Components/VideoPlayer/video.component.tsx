@@ -18,12 +18,14 @@ const Player = ({url,styles,alt}:PlayerProps) => {
     const {height,width} = styles
     return (
         <PlayerContainer>
-            {error ? 
-            <VideoError
-                src={alt}
-                width={width}
-                height={height}
-            />
+            {error ?
+            <div style={{margin:'auto',backgroundColor:'',display:'flex'}}>
+                <VideoError
+                    src={alt}
+                    // width={width}
+                    // height={height}
+                />
+            </div>
             :
             <ReactPlayer
                 src={`${url}?fullscreen=1`}
