@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.7a0eac75.js",
+    "main.js": "/static/js/main.fa8f5127.js",
     "reactPlayerHls.js": "/static/js/reactPlayerHls.213d6c9d.chunk.js",
     "reactPlayerDash.js": "/static/js/reactPlayerDash.4159b66a.chunk.js",
     "reactPlayerMux.js": "/static/js/reactPlayerMux.6b5fa83d.chunk.js",
@@ -16,10 +16,12 @@
     "static/js/416.070d2f2f.chunk.js": "/static/js/416.070d2f2f.chunk.js",
     "static/js/365.06f072d6.chunk.js": "/static/js/365.06f072d6.chunk.js",
     "static/js/788.e9853c2b.chunk.js": "/static/js/788.e9853c2b.chunk.js",
+    "static/media/mobile liberation.png": "/static/media/mobile liberation.ec3262de6aa49369c44a.png",
+    "static/media/liberation.png": "/static/media/liberation.9e7c315c954f02e8dc01.png",
     "static/media/3d book and tablet.png": "/static/media/3d book and tablet.22223a0beda56238c670.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.7a0eac75.js.map": "/static/js/main.7a0eac75.js.map",
+    "main.fa8f5127.js.map": "/static/js/main.fa8f5127.js.map",
     "reactPlayerHls.213d6c9d.chunk.js.map": "/static/js/reactPlayerHls.213d6c9d.chunk.js.map",
     "reactPlayerDash.4159b66a.chunk.js.map": "/static/js/reactPlayerDash.4159b66a.chunk.js.map",
     "reactPlayerMux.6b5fa83d.chunk.js.map": "/static/js/reactPlayerMux.6b5fa83d.chunk.js.map",
@@ -37,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7a0eac75.js"
+    "static/js/main.fa8f5127.js"
   ]
 }
